@@ -6,7 +6,7 @@
 |---|---|
 |E-mail|shaoqing.dai@outlook.com|
 
-简介：本部分材料仅限于我授课的三部分内容：健康地理中的空间技术与健康地理中的人工智能。
+简介：本部分材料仅限于我授课的两部分内容：健康地理中的空间技术与健康地理中的人工智能。
 
 # 大纲
 
@@ -39,7 +39,7 @@
 ###### 2.5.1 健康领域垂向大模型
 ###### 2.5.2 基础模型的微调与调整
 ###### 2.5.3 Agent元年 
-###### 2.5.4 GeoAgent
+###### 2.5.4 面向地理任务的Agent
 ##### 2.6 终极议题：融合、伦理与未来
 ###### 2.6.1 电车难题
 ###### 2.6.2 算法公平性、隐私保护与负责任创新
@@ -68,27 +68,8 @@
     - 时空统计：Moran's I，LISA，Getis Ord G，Geostatistics, Satscan，Geodetector, Geographically Weighted Regression，Multi-level regression/OR,地理/时空归因框架，Explainable Artifical Intelligence(XAI) 。
     - 本章总结与桥接： 从空间模式到对“复杂人地关系”的挖掘    
 - 教学活动：应用XAI分析基于通勤路径的建成环境暴露与肥胖关联。
-## 第二章教案：健康地理中的复杂系统科学——理解复杂性的思维与工具 (2学时)
-### 第6讲：范式革命与核心概念
-- 教学目标：实现从线性思维到系统思维的转变，掌握复杂系统核心概念。
-- 教学内容：
-    - 引言：什么是复杂系统科学
-    - 核心概念：复杂系统，开放性，巨量性，复杂性，层次性
-### 第7-8讲：建模方法I：ABM与CA
-- 教学目标：理解ABM与CA的自下而上建模哲学，能描述其建模流程。
-- 教学内容：
-    - ABM原理：智能体、环境、规则。
-    - CA原理：规则、邻居、状态。
-- 教学活动：观看PLUS的土地利用模拟视频，讨论相关模型设置与参数
-### 第9-10讲：建模方法II：复杂网络分析、系统动力学与房室模型
-- 教学目标：掌握复杂网络分析的基本度量，理解系统动力学模型，了解房室模型中几种典型的传染病建模模型。
-- 教学内容：
-    - 复杂网络分析：节点、边、度、中心性、社群检测。
-    - 系统动力学建模：存量、流量、时间延迟，系统边界。
-    - 房室模型：了解SI，SIR和SEIR等变体传染病建模。
-- 教学活动：观看NEJM 2007年论文动图，肥胖传播的大型社交网络，了解一个典型的COVID-19复杂系统建模用于传染病预测。
-## 第三章教案：健康地理中的人工智能——赋能与洞察 (3学时)
-### 第11讲：AI如何赋能健康地理
+## 第二章教案：健康地理中的人工智能——赋能与洞察 (3学时)
+### 第6讲：AI如何赋能健康地理
 - 教学目标：理解AI在健康地理中的赋能角色；掌握机器学习基本概念、分类与预测任务的基本流程。
 - 教学内容：
     - AI赋能健康地理: EHJ街景CVD论文; ACM WWW 遥感+街景预测抑郁论文; 蚂蚁阿福AI医生。
@@ -97,18 +78,20 @@
     - 预测任务：代谢综合征得分建模(NC)。
     - 性能评估：交叉验证、评估指标与超参数调优
     - 集成学习：弱分类器组合的理念与消融实验
-### 第12讲：深度学习
+### 第7讲：深度学习
 - 教学目标：深度学习在健康地理中的应用；主要包括街景图像、遥感影像以及多模态数据。
 - 教学内容：
     - 计算机视觉与街景图像应用于健康地理：基于街景图像的建成环境审计；基于街景图像与多模态地理数据的居住环境评估。
-    - 计算机视觉与遥感影像应用于健康地理：基于FCN的遥感影像建筑物识别。
+    - 计算机视觉与遥感影像应用于健康地理：街景图像与遥感影像融合；基于FCN的遥感影像建筑物识别。
     - 多模态数据应用于健康地理：基于地理加权神经网络的高分辨率人口建模；基于多模态数据融合的城市可骑行性评估；多模态医疗大数据用于预测血糖波动与2型糖尿病风险。
-### 第13讲：可解释AI与大语言模型
+### 第8讲：可解释AI、大语言模型与Agent
 - 教学目标：认识“黑箱”问题的挑战与XAI的价值；了解LLM在健康地理中的潜力。
 - 教学内容：
     - 可解释AI（XAI）：PDP与SHAP等方法如何帮助理解AI模型的决策。
     - LLM在健康地理中的应用场景：Dutch Style; 本草大模型; LLM生成社区健康状况预测; 基础大语言模型在肺癌筛查中临床决策潜力。
-### 第14讲：终极议题
+    - Agent元年: 从龙虾、养马、Claude Code、Codex到Open Code
+    - 面向地理的Agent：MCP服务、Geocode、GeoAgent、CogitoAgent
+### 第9讲：终极议题
 - 教学目标：讨论AI相关的伦理限制，对技术伦理进行批判性思考；完成课程整体复盘。
 - 教学内容：
     - 经典例子：电车难题。
@@ -184,6 +167,12 @@
 
 26. Zuo, S., Dai, S., & Ren, Y. (2019). More fragmentized urban form more CO2 emissions? A comprehensive relationship from the combination analysis across different scales. *Journal of Cleaner Production*, *244*, 118659. https://doi.org/10.1016/j.jclepro.2019.118659
 
+27. Lyu, W., Lei, Y., Yi, W., Song, Y., Li, X., Dai, S., Qin, Y., Zhao, W. (2026). Causal discovery in urban data with temporal empirical dynamic modeling: The R package tEDM. *Computers, Environment and Urban Systems*, *127*, 102435. https://doi.org/10.1016/j.compenvurbsys.2026.102435
+
+28. Lyu, W., Dai, S., Song, Y., Zhao, W., Yi, W., Xiao, Y., Jia, N. (2026). Measuring causal strengths from spatial cross-sectional data with geographical cross mapping cardinality. *International Journal of Geographical Information Science* 1–23. https://doi.org/10.1080/13658816.2026.2687121
+
+29. Li, Z., Zhang, F., Dai, S., Zhao, W. (2026). Bridging street view coverage disparities through geographic identity preserving generation from satellite view. *ISPRS Journal of Photogrammetry and Remote Sensing*  *236* 622-639. https://doi.org/10.1080/13658816.2026.2687121
+
 
 
 ### 中文期刊论文
@@ -201,6 +190,10 @@
 3. "发展与保护的天平"：使用PLUS模型分析多土地利用情境下的生态系统服务价值差异. *极思客栈*.
 
 4. 智慧医疗翻不过的那座山. *NEJM医学前沿*.
+
+5. 告别“龙虾崇拜”：我用 Codex 挑战了农林科学的复杂任务. *植物功能生态*.
+
+6. ESRI发力AI，发布ArcGIS MCP服务支持. *麻辣GIS*.
 
 ## 其他相关课程
 
